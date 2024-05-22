@@ -1,0 +1,44 @@
+.first-button, .second-button {
+    padding: 20px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.first-button {
+    background-color: yellow;
+    color: black;
+}
+
+.second-button {
+    background-color: #6c757d;
+    color: #000;
+}
+
+.user-form {
+    max-width: 300px;
+    margin-top: 20px;
+}
+
+.user-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.user-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.user-form input[type="email"] {
+    border: 1px solid #ccc;
+    background-color: #6c757d;
+}
+
+.user-form button {
+    width: 50%;
+}
