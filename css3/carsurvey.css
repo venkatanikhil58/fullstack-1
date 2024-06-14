@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url(/images/download.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form {
+    display: grid;
+    max-width: 500px;
+    padding: 25px;
+    border: 1px solid yellow;
+    border-radius: 7px;
+    background-color: lightgrey;
+    
+}
+
+select:hover{
+    border-color: red;
+    background-color: lightgreen;
+}
+
+
+#car_details {
+    opacity: 0.5;
+    
+}
+button:hover{
+    cursor: pointer;
+}
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+
