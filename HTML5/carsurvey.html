@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>car survey form</title>
+    <link rel="stylesheet" href="/CSS3/carsurvey.css">
+</head>
+<body>
+
+    <form>
+        <div id="user_info">
+          <h2>car survey form-user information</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required><br>
+
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" required><br>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required><br>
+        </div>
+        
+        <div id="user_option">
+            <h2>Do you have car</h2>
+            <label for="yes">Yes</label>
+            <input type="radio" id="yes" name="carownership" value="yes" required>
+            <label for="no">No</label>
+            <input type="radio" id="no" name="carownership" value="no" required>
+        </div>
+        
+
+        <div id="car_details">
+            <h2>car details:</h2>
+            <label for="car_make"></label>
+            <select id="car_make" name="car_make">
+                <option value="">select</option>
+                <option value="volvo">volvo</option>
+                <option value="tata">tata</option>
+                <option value="mahindra">mahindra</option>
+            </select><br>
+        </div>
+        <h2>How often do you drive</h2>
+            <select id="driving_frequency" name="driving_frequency">
+                <option value="">select</option>
+                <option value="daily">daily</option>
+                <option value="weekly">weekly</option>
+                <option value="monthly">monthly</option>
+            </select><br>
+
+            <button type="submit" style="background-color: goldenrod;">submit</button>
+     </form>
+    
+</body>
+</html>
